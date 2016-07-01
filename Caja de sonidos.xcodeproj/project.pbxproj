@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77100DFD1D26CAD80016B828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77100DFC1D26CAD80016B828 /* AppDelegate.swift */; };
+		77100DFF1D26CAD80016B828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77100DFE1D26CAD80016B828 /* ViewController.swift */; };
+		77100E021D26CAD80016B828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77100E001D26CAD80016B828 /* Main.storyboard */; };
+		77100E041D26CAD80016B828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77100E031D26CAD80016B828 /* Assets.xcassets */; };
+		77100E071D26CAD80016B828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77100E051D26CAD80016B828 /* LaunchScreen.storyboard */; };
+		77100E171D270A8E0016B828 /* bean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77100E0F1D270A8E0016B828 /* bean.mp3 */; };
+		77100E181D270A8E0016B828 /* belch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77100E101D270A8E0016B828 /* belch.mp3 */; };
+		77100E191D270A8E0016B828 /* giggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77100E111D270A8E0016B828 /* giggle.mp3 */; };
+		77100E1A1D270A8E0016B828 /* pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77100E121D270A8E0016B828 /* pew.mp3 */; };
+		77100E1B1D270A8E0016B828 /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77100E131D270A8E0016B828 /* pig.mp3 */; };
+		77100E1C1D270A8E0016B828 /* snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77100E141D270A8E0016B828 /* snore.mp3 */; };
+		77100E1D1D270A8E0016B828 /* static.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77100E151D270A8E0016B828 /* static.mp3 */; };
+		77100E1E1D270A8E0016B828 /* uuu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77100E161D270A8E0016B828 /* uuu.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77100DF91D26CAD70016B828 /* Caja de sonidos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caja de sonidos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77100DFC1D26CAD80016B828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77100DFE1D26CAD80016B828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77100E011D26CAD80016B828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77100E031D26CAD80016B828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77100E061D26CAD80016B828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77100E081D26CAD80016B828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77100E0F1D270A8E0016B828 /* bean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bean.mp3; sourceTree = "<group>"; };
+		77100E101D270A8E0016B828 /* belch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = belch.mp3; sourceTree = "<group>"; };
+		77100E111D270A8E0016B828 /* giggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giggle.mp3; sourceTree = "<group>"; };
+		77100E121D270A8E0016B828 /* pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pew.mp3; sourceTree = "<group>"; };
+		77100E131D270A8E0016B828 /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		77100E141D270A8E0016B828 /* snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snore.mp3; sourceTree = "<group>"; };
+		77100E151D270A8E0016B828 /* static.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = static.mp3; sourceTree = "<group>"; };
+		77100E161D270A8E0016B828 /* uuu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uuu.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77100DF61D26CAD70016B828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77100DF01D26CAD70016B828 = {
+			isa = PBXGroup;
+			children = (
+				77100DFB1D26CAD80016B828 /* Caja de sonidos */,
+				77100DFA1D26CAD70016B828 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77100DFA1D26CAD70016B828 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77100DF91D26CAD70016B828 /* Caja de sonidos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77100DFB1D26CAD80016B828 /* Caja de sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				77100E0E1D270A5A0016B828 /* Sounds */,
+				77100DFC1D26CAD80016B828 /* AppDelegate.swift */,
+				77100DFE1D26CAD80016B828 /* ViewController.swift */,
+				77100E001D26CAD80016B828 /* Main.storyboard */,
+				77100E031D26CAD80016B828 /* Assets.xcassets */,
+				77100E051D26CAD80016B828 /* LaunchScreen.storyboard */,
+				77100E081D26CAD80016B828 /* Info.plist */,
+			);
+			path = "Caja de sonidos";
+			sourceTree = "<group>";
+		};
+		77100E0E1D270A5A0016B828 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				77100E0F1D270A8E0016B828 /* bean.mp3 */,
+				77100E101D270A8E0016B828 /* belch.mp3 */,
+				77100E111D270A8E0016B828 /* giggle.mp3 */,
+				77100E121D270A8E0016B828 /* pew.mp3 */,
+				77100E131D270A8E0016B828 /* pig.mp3 */,
+				77100E141D270A8E0016B828 /* snore.mp3 */,
+				77100E151D270A8E0016B828 /* static.mp3 */,
+				77100E161D270A8E0016B828 /* uuu.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77100DF81D26CAD70016B828 /* Caja de sonidos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77100E0B1D26CAD80016B828 /* Build configuration list for PBXNativeTarget "Caja de sonidos" */;
+			buildPhases = (
+				77100DF51D26CAD70016B828 /* Sources */,
+				77100DF61D26CAD70016B828 /* Frameworks */,
+				77100DF71D26CAD70016B828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Caja de sonidos";
+			productName = "Caja de sonidos";
+			productReference = 77100DF91D26CAD70016B828 /* Caja de sonidos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77100DF11D26CAD70016B828 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alexis Araujo";
+				TargetAttributes = {
+					77100DF81D26CAD70016B828 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 77100DF41D26CAD70016B828 /* Build configuration list for PBXProject "Caja de sonidos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77100DF01D26CAD70016B828;
+			productRefGroup = 77100DFA1D26CAD70016B828 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77100DF81D26CAD70016B828 /* Caja de sonidos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77100DF71D26CAD70016B828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77100E171D270A8E0016B828 /* bean.mp3 in Resources */,
+				77100E1C1D270A8E0016B828 /* snore.mp3 in Resources */,
+				77100E191D270A8E0016B828 /* giggle.mp3 in Resources */,
+				77100E1E1D270A8E0016B828 /* uuu.mp3 in Resources */,
+				77100E181D270A8E0016B828 /* belch.mp3 in Resources */,
+				77100E1D1D270A8E0016B828 /* static.mp3 in Resources */,
+				77100E071D26CAD80016B828 /* LaunchScreen.storyboard in Resources */,
+				77100E041D26CAD80016B828 /* Assets.xcassets in Resources */,
+				77100E1B1D270A8E0016B828 /* pig.mp3 in Resources */,
+				77100E021D26CAD80016B828 /* Main.storyboard in Resources */,
+				77100E1A1D270A8E0016B828 /* pew.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77100DF51D26CAD70016B828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77100DFF1D26CAD80016B828 /* ViewController.swift in Sources */,
+				77100DFD1D26CAD80016B828 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77100E001D26CAD80016B828 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77100E011D26CAD80016B828 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77100E051D26CAD80016B828 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77100E061D26CAD80016B828 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77100E091D26CAD80016B828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77100E0A1D26CAD80016B828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77100E0C1D26CAD80016B828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Caja de sonidos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nielsen.Caja-de-sonidos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77100E0D1D26CAD80016B828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Caja de sonidos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nielsen.Caja-de-sonidos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77100DF41D26CAD70016B828 /* Build configuration list for PBXProject "Caja de sonidos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77100E091D26CAD80016B828 /* Debug */,
+				77100E0A1D26CAD80016B828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77100E0B1D26CAD80016B828 /* Build configuration list for PBXNativeTarget "Caja de sonidos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77100E0C1D26CAD80016B828 /* Debug */,
+				77100E0D1D26CAD80016B828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77100DF11D26CAD70016B828 /* Project object */;
+}
